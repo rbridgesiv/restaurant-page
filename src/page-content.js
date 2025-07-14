@@ -2,11 +2,11 @@ export function loadPageContent() {
     const content = document.getElementById('content');
 
     const header = document.createElement('h2');
-    header.textContent = 'Welcome to Our Vegetarian Haven'
+    header.textContent = 'Welcome to Our Vegetarian Haven!'
     content.appendChild(header);
 
     const img = document.createElement('img');
-    img.src = "../public/images/restaurant_image.png";
+    img.src = "/images/restaurant_image.png";
     content.appendChild(img);
 
     const text = document.createElement('p');
