@@ -10,7 +10,7 @@ module.exports = {
     clean: true,
   },
   devServer: {
-    static: './dist',
+    static: './public',
   },
   plugins: [
     new HtmlWebpackPlugin({
