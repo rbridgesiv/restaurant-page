@@ -1,4 +1,4 @@
-import { loadPageContent } from './page-SVGTextContentElement.js';
+import { loadPageContent } from './page-content.js';
 
 console.log("Hello Hello");
 
