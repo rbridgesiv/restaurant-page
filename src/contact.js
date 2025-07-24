@@ -29,8 +29,16 @@ export function loadContact() {
     email.classList = 'email';
     email.textContent = `Email: hello@vegehaven.com`;
 
-    
-    
+    const text = document.createElement('p');
+    text.classList = 'hometext';
+    text.textContent = "Delight in the best of plant-based culinary excellence at our vegetarian restaurant. We serve an inspired menu full of flavorful, wholesome dishes made from fresh, local ingredients. From farm-fresh salads to hearty mains and decadent desserts, each plate is crafted to nourish and impress.";
+    content.appendChild(text);
+
+    const text2 = document.createElement('p');
+    text2.classList = 'hometext2';
+    text2.textContent = 'Come experience a warm, inviting space where great taste meets mindful dining.'
+    content.appendChild(text2);
+
     content.appendChild(hoursTitle);
     content.appendChild(hours1);
     content.appendChild(hours2);
