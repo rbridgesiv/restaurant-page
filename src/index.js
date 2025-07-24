@@ -1,6 +1,7 @@
 import { loadPageContent } from './page-content.js';
 import { loadMenu } from './menu.js';
 import { loadContact } from './contact.js';
+import './styles.css';
 
 const homeBtn = document.getElementById('homeBtn');
 const menuBtn = document.getElementById('menuBtn');
