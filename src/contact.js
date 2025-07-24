@@ -1,11 +1,9 @@
 export function loadContact() {
     const content = document.getElementById('content');
-    const container = document.createElement('div');
-    content.appendChild('container');
 
     const header = document.createElement('h2');
     header.textContent = 'Contact';
-    container.appendChild('header');
+    content.appendChild(header);
 
     const info = document.createElement('p');
     info.textContent = `Contact Us
@@ -22,6 +20,6 @@ export function loadContact() {
     Monday–Friday: 11am – 9pm
     Saturday–Sunday: 9am – 10pm`;
 
-    container.appendChild('info');
+    content.appendChild(info);
     
 }
