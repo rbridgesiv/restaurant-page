@@ -21,9 +21,15 @@ h3 {
     margin-top: 9vh;
 }
 
+.headline {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
 img {
-    width: 20em;
-    height: 20em;
+    width: 35em;
+    height: 30em;
     margin-right: 250px;
     display: block;
     margin: 0 auto;
@@ -38,7 +44,15 @@ p {
 }
 
 .hometext {
-    margin: 0 25vw 0 25vw;
+    margin: 10vh 20vw 0 20vw;
+    display: flex;
+    text-align: center;
+}
+
+.hometext2 {
+    margin: 2vh 20vw 0 20vw;
+    display: flex;
+    text-align: center;
 }
 
 .last {
@@ -46,7 +60,7 @@ p {
 }
 
 .hourstitle {
-    margin-top: 20vh;
+    margin-top: 7vh;
 }
 
 .address {
