@@ -1,11 +1,9 @@
 export function loadMenu() {
     const content = document.getElementById('content');
-    const container = document.createElement('div');
-    content.appendChild('container');
     
     const header = document.createElement('h2');
-    header.textContent('Menu');
-    container.appendChild('header');
+    header.textContent = 'Menu';
+    content.appendChild(header);
 
     const menu = document.createElement('p');
     menu.textContent = `Green Haven – Vegetarian Bistro Menu
@@ -33,6 +31,6 @@ export function loadMenu() {
     • Iced Hibiscus Tea
     • Golden Turmeric Latte`;
     
-    container.appendChild('menu');
+    content.appendChild(menu);
 
 }
