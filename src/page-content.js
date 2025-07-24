@@ -2,7 +2,7 @@ export function loadPageContent() {
     const content = document.getElementById('content');
 
     const header = document.createElement('h2');
-    header.textContent = 'Welcome to Our Vegetarian Haven!'
+    header.textContent = 'Welcome to Vegetarian Haven!'
     content.appendChild(header);
 
     const img = document.createElement('img');
