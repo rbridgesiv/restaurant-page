@@ -3,6 +3,7 @@ export function loadContact() {
 
     const hoursTitle = document.createElement('h3');
     hoursTitle.textContent = 'Hours'
+    hoursTitle.classList = 'hourstitle';
     
     const hours1 = document.createElement('p');
     hours1.textContent = 'Monday–Friday: 11am – 10pm'
