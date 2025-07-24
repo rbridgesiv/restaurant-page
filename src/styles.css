@@ -1,0 +1,53 @@
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0 10vh 0;
+}
+
+button {
+    margin: 0 3vw 0 3vw;
+    padding: 1vw;
+    border: none;
+}
+
+h2, h3, h4 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin-top: 9vh;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+    margin-right: 250px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 5vh;
+}
+
+p {
+    margin: 0 5vw 0 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.hometext {
+    margin: 0 25vw 0 25vw;
+}
+
+.last {
+    margin-bottom: 20vh;
+}
+
+.address {
+    margin-top: 5vh;
+}
+
+.phone {
+    margin-top: 5vh;
+}
