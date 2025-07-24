@@ -28,7 +28,3 @@ contactBtn.addEventListener('click', () => {
 
 console.log("Hello Hello");
 loadPageContent();
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     loadPageContent();
-// });
