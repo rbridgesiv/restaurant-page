@@ -1,6 +1,11 @@
 export function loadContact() {
     const content = document.getElementById('content');
 
+    const img2 = document.createElement('img');
+    img2.src = "/images/menu_image.png";
+    img2.classList = 'img2';
+    content.appendChild(img2);
+
     const hoursTitle = document.createElement('h3');
     hoursTitle.textContent = 'Hours'
     hoursTitle.classList = 'hourstitle';
