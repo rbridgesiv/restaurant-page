@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -17,6 +18,11 @@ module.exports = {
       title: 'Restaurant Page',
       template: './src/template.html',
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'public', to: '.' }, // copies everything from public to dist root
+      ],
+    }),
   ],
   module: {
     rules: [
@@ -27,7 +33,7 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: "html-loader",
-      }      
+      }
     ],
   },
 };
