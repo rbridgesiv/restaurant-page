@@ -27,5 +27,4 @@ contactBtn.addEventListener('click', () => {
     loadContact();
 });
 
-console.log("Hello Hello");
 loadPageContent();
