@@ -11,7 +11,7 @@ export function loadPageContent() {
     content.appendChild(headline);
 
     const img = document.createElement('img');
-    img.src = "/images/restaurant_image.png";
+    img.src = "./images/restaurant_image.png";
     content.appendChild(img);
 
     
