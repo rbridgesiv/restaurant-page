@@ -1,9 +1,6 @@
 export function loadMenu() {
     const content = document.getElementById('content');
     
-    const header = document.createElement('h2');
-    header.textContent = 'Menu';
-    content.appendChild(header);
 
     // === Starters ===
     const starterHead = document.createElement('h3');
